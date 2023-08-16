@@ -5,11 +5,10 @@
 *followed by a new line
 * Return: Always 0 (Success)
 */
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
-	int n;
 	int lastdigit;
 	lastdigit=n%10;
-	printf("%d",lastdigit);
+	_putchar `('0' + lastdigit);
 	return(lastdigit);
 }	
