@@ -10,11 +10,11 @@ int main(void)
 	for (ch = 'a' ;  ch <= 'z' ; ch++)
 	{
 		if (ch == 'e' || ch == 'q')
-			ch++;
+			putchar(ch=ch+1);
 		else
 			putchar(ch);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
 
