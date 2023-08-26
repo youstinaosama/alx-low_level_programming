@@ -6,16 +6,7 @@
  *
  * return : always 0
  */
-/**
- *main - check the code
- *
- * Return: Always 0.
- */
 int mul(int a, int b)	
 {
-	int mul;
-
-	mul = a*b; 
-	putchar(mul);
 	return (a*b);
 }
