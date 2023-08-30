@@ -1,9 +1,7 @@
 #include <stdio.h>
-/*
- * main - Entry point
- * Return: Always 0 (Success)
- *print_alphabet - entry point
- *alphapet function
+/**
+ * print_alphabet - prints from a to z
+ *
  *Description: This function prints the alphabet, in lowercase
  */
 void print_alphabet(void)
