@@ -22,7 +22,7 @@ void print_to_98(int n)
 			else
 				putchar('\n');
 		}
-	}	
+	}
 	else if (n > 98)
 	{
 		for (i = n; i >= 98; i--)
@@ -38,6 +38,5 @@ void print_to_98(int n)
 		}
 	}
 	else
-		printf("%d\n",n);
-	
+		printf("%d\n", n);
 }
