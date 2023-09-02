@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "main.h"
-/*
- * int main (void) - check the code
- * @a : number to multiply
+/**
+ * mul - multiply a and b
+ * @a: the first num
+ * @b: the second num
  *
- * return : always 0
+ * return: a * b
  */
-int mul(int a, int b)	
+int mul(int a, int b)
 {
-	return (a*b);
+	return (a * b);
 }
