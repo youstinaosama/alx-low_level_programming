@@ -10,7 +10,6 @@
  */
 int _strlen(char *str)
 {
-	str = "My first strlen!";
 	printf("%ld", strlen(str));
 	return (0);
 }
