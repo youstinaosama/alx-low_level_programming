@@ -8,13 +8,11 @@
  */
 int main(void)
 {
-	int x;
-	int y;
+	char *str;
+	int len;
 
-	x = 98;
-	y = 42;
-	printf("a=%d, b=%d\n", x, y);
-	swap_int(&a, &a);
-	printf("a=%d, b=%d\n", x, y);
+	str = "My first strlen!";
+	len = _strlen(str);
+	printf("%d\n", len);
 	return (0);
 }
