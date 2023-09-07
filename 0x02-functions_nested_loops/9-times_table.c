@@ -100,11 +100,11 @@ void times_table(void)
 			printf("%d\n", w);
 		else if (w < 7)
 			printf("%d,  ", w);
-		else 
+		else
 			printf("%d, ", w);
 	}
 	for (x = 0; x <= 72; x = x + 8)
-	{	
+	{
 		if (x == 72)
 			printf("%d\n", x);
 		else if (x < 8)
@@ -118,7 +118,12 @@ void times_table(void)
 			printf("%d\n", y);
 		else if (y < 9)
 			printf("%d,  ", y);
-		else 
-			printf("%d, ", y);
+		else
+		{
+			printf("%d", y);
+			printf(",");
+			printf(" ");
+			printf(" ");
+		}
 	}
 }
