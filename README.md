@@ -1,0 +1,1 @@
+stratin at static libraries
