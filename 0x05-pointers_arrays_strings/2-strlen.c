@@ -10,7 +10,7 @@
  */
 int _strlen(char *str)
 {
-	int length = (strlen(str))/10;
+	int ilength = (strlen(str))/10;
 	printf("%d", length);
 	return (0);
 }
