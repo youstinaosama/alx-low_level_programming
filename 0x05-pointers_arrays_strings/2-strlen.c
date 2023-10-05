@@ -8,9 +8,11 @@
  *
  *Return: Always 0.
  */
-int _strlen(char *str)
+int _strlen(char *s)
 {
-	int ilength = (strlen(str))/10;
-	printf("%d", length);
-	return (0);
+	int i = 0;
+
+	while (s[i] != '\0')
+		i++;
+	return (i);
 }
