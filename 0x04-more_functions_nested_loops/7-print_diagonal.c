@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *print_diagonal: print \
+ *print_diagonal-prints the charcter \
+ *
+ *with n times sepaces before it
  *
  *@n: no of times
- *@i: special character
+ *
  */
 void print_diagonal(int n)
 {

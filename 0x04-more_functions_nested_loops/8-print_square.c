@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ *print_square-prints square with n #
  *
- *
- *
+ *@size: soze of square
  */
 void print_square(int size)
 {
