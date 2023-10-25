@@ -3,7 +3,7 @@
  *_pow_recursion - find x power y
  *
  *@x: the no. we multiply
- *@y: the no. of times 
+ *@y: the no. of times
  *
  * Return: always 1.
  */
