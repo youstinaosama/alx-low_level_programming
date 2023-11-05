@@ -24,6 +24,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (b = 0; s2[b] != '\0'; b++)
 		;
 	c = a + b + 1;
+	if (n > b)
+		n = b;
 	aee = (char *) malloc(c * sizeof(char));
 	if (aee == NULL)
 		return (NULL);
@@ -31,7 +33,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		aee[a] = s1[a];
 	}
-	for (b = 0; b <= n; b++)
+	for (b = 0; b != n; b++)
 	{
 		aee[a] = s2[b];
 		a++;
