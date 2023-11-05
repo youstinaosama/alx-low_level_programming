@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *void *malloc_checked(unsigned int b) - Write a function that allocates memory using malloc
+ *void *malloc_checked - Write a function that allocates memory
  *
  *@b: length to allocate in the memory
  *
