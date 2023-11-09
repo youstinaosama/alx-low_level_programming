@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
+ *print_all - prints the arguments
  *
- *
+ * @format: type of arguments
  *
  */
 void print_all(const char * const format, ...)
